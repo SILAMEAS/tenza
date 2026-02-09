@@ -1,0 +1,56 @@
+{
+  "header": {
+    "logo": "Nexus",
+    "search": "Buscar productos",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "shop": "Tienda",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Productos de Calidad Premium",
+    "subtitle": "Descubra nuestra colección exclusiva de productos premium",
+    "cta": "Comprar Ahora"
+  },
+  "categories": {
+    "title": "Comprar por Categoría",
+    "electronics": "Electrónica",
+    "fashion": "Moda",
+    "accessories": "Accesorios"
+  },
+  "products": {
+    "featured": "Productos Destacados",
+    "viewDetails": "Ver Detalles",
+    "addToCart": "Agregar al Carrito",
+    "addToWishlist": "Agregar a la Lista de Deseos",
+    "rating": "Calificación",
+    "reviews": "reseñas"
+  },
+  "newsletter": {
+    "title": "Suscríbase a nuestro boletín",
+    "subtitle": "Obtenga las últimas actualizaciones sobre nuevos productos y ventas próximas",
+    "email": "Ingrese su correo electrónico",
+    "subscribe": "Suscribirse"
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Acerca de Nosotros",
+    "careers": "Carreras",
+    "support": "Apoyo",
+    "faq": "Preguntas Frecuentes",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contáctenos",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "followUs": "Síguenos"
+  }
+}

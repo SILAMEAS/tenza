@@ -1,0 +1,56 @@
+{
+  "header": {
+    "logo": "Nexus",
+    "search": "Rechercher des produits",
+    "cart": "Panier",
+    "account": "Compte",
+    "language": "Langue",
+    "theme": "Thème"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Produits de Qualité Premium",
+    "subtitle": "Découvrez notre collection exclusive de produits premium",
+    "cta": "Acheter Maintenant"
+  },
+  "categories": {
+    "title": "Magasiner par Catégorie",
+    "electronics": "Électronique",
+    "fashion": "Mode",
+    "accessories": "Accessoires"
+  },
+  "products": {
+    "featured": "Produits en Vedette",
+    "viewDetails": "Voir les Détails",
+    "addToCart": "Ajouter au Panier",
+    "addToWishlist": "Ajouter à la Liste de Souhaits",
+    "rating": "Évaluation",
+    "reviews": "avis"
+  },
+  "newsletter": {
+    "title": "S'abonner à notre infolettre",
+    "subtitle": "Obtenez les dernières mises à jour sur les nouveaux produits et les ventes à venir",
+    "email": "Entrez votre e-mail",
+    "subscribe": "S'abonner"
+  },
+  "footer": {
+    "company": "Entreprise",
+    "about": "À Propos de Nous",
+    "careers": "Carrières",
+    "support": "Support",
+    "faq": "FAQ",
+    "legal": "Juridique",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "contact": "Nous Contacter",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "followUs": "Suivez-nous"
+  }
+}

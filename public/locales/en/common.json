@@ -1,0 +1,56 @@
+{
+  "header": {
+    "logo": "Nexus",
+    "search": "Search products",
+    "cart": "Cart",
+    "account": "Account",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "navigation": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Premium Quality Products",
+    "subtitle": "Discover our exclusive collection of premium products",
+    "cta": "Shop Now"
+  },
+  "categories": {
+    "title": "Shop by Category",
+    "electronics": "Electronics",
+    "fashion": "Fashion",
+    "accessories": "Accessories"
+  },
+  "products": {
+    "featured": "Featured Products",
+    "viewDetails": "View Details",
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "rating": "Rating",
+    "reviews": "reviews"
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "subtitle": "Get the latest updates on new products and upcoming sales",
+    "email": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "support": "Support",
+    "faq": "FAQ",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "followUs": "Follow Us"
+  }
+}
