@@ -1,4 +1,4 @@
-# Nexus - Modern E-Commerce Platform
+# TENZA - Modern E-Commerce Platform
 
 A full-featured, production-ready e-commerce website built with Next.js 16, React, TypeScript, Tailwind CSS, shadcn/ui, Redux Toolkit, i18next, and next-themes.
 
@@ -7,6 +7,7 @@ A full-featured, production-ready e-commerce website built with Next.js 16, Reac
 ### User Roles & Access Control
 
 **1. End-User (Customer)**
+
 - Browse products with filtering and sorting
 - Add items to cart
 - Wishlist functionality
@@ -17,6 +18,7 @@ A full-featured, production-ready e-commerce website built with Next.js 16, Reac
 - Dark/Light mode toggle
 
 **2. Store Owner**
+
 - Full product management (CRUD)
 - Company-specific dashboard
 - Order management
@@ -24,6 +26,7 @@ A full-featured, production-ready e-commerce website built with Next.js 16, Reac
 - Settings and account management
 
 **3. Super Admin**
+
 - Complete platform control
 - User management
 - All product oversight
@@ -56,6 +59,7 @@ Super Admin:  admin@example.com / password123
 ### Available Routes
 
 #### Public Routes
+
 - `/` - Homepage with featured products
 - `/products` - Product catalog with filters
 - `/products/[id]` - Product detail page
@@ -64,6 +68,7 @@ Super Admin:  admin@example.com / password123
 - `/checkout` - Checkout process
 
 #### Protected Routes (End-User)
+
 - `/dashboard` - User dashboard
 - `/orders` - Order history
 - `/wishlist` - Saved items
@@ -72,11 +77,13 @@ Super Admin:  admin@example.com / password123
 - `/profile` - User profile
 
 #### Protected Routes (Store Owner)
+
 - `/owner` - Owner dashboard
 - Product management features
 - Order management features
 
 #### Protected Routes (Super Admin)
+
 - `/admin` - Admin dashboard
 - User management
 - Full system control
@@ -84,6 +91,7 @@ Super Admin:  admin@example.com / password123
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **Next.js 16** - React framework with App Router
 - **React 19** - UI library
 - **TypeScript** - Type safety
@@ -91,16 +99,19 @@ Super Admin:  admin@example.com / password123
 - **shadcn/ui** - Component library
 
 ### State Management
+
 - **Redux Toolkit** - State management
 - **Redux Toolkit Query** - Data fetching & caching
 - **React-Redux** - React bindings for Redux
 
 ### Internationalization & Theme
+
 - **i18next** - Internationalization
 - **react-i18next** - React bindings for i18n
 - **next-themes** - Next.js theme management
 
 ### UI/UX
+
 - **Lucide React** - Icons
 - **next/navigation** - Routing
 - **classnames (cn)** - Class utilities
@@ -170,11 +181,12 @@ project/
 ### Changing Colors/Theme
 
 Edit color variables in `app/globals.css`:
+
 ```css
 :root {
-  --primary: 0 0% 10%;      /* Change primary color */
-  --accent: 20 100% 50%;    /* Change accent color */
-  --background: 0 0% 98%;   /* Change background */
+  --primary: 0 0% 10%; /* Change primary color */
+  --accent: 20 100% 50%; /* Change accent color */
+  --background: 0 0% 98%; /* Change background */
 }
 ```
 
@@ -231,17 +243,20 @@ Edit color variables in `app/globals.css`:
 ### Redux Slices
 
 **authSlice** - Manages authentication state
+
 - `login` - Set authenticated user
 - `logout` - Clear user data
 - `setRole` - Update user role
 
 **cartSlice** - Manages shopping cart
+
 - `addItem` - Add product to cart
 - `removeItem` - Remove product from cart
 - `updateQuantity` - Update item quantity
 - `clearCart` - Empty cart
 
 **uiSlice** - Manages UI state
+
 - `toggleCartVisibility` - Show/hide cart
 - `setLanguage` - Change language
 - `toggleMobileMenu` - Mobile menu state
@@ -249,12 +264,14 @@ Edit color variables in `app/globals.css`:
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
+
 ```bash
 npm install -g vercel
 vercel
 ```
 
 ### Self-Hosted
+
 ```bash
 npm run build
 npm start
@@ -271,6 +288,7 @@ All data is currently mocked for demonstration. Key mock data locations:
 ## 🔄 Smooth Theme Transitions
 
 Theme switching is handled by:
+
 - CSS transitions on all elements (0.3s ease)
 - next-themes for persistence
 - System preference detection

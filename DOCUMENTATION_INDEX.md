@@ -1,4 +1,4 @@
-# 📚 Nexus E-Commerce - Complete Documentation Index
+# 📚 TENZA E-Commerce - Complete Documentation Index
 
 Welcome! You have access to comprehensive documentation for your e-commerce platform. This file helps you find exactly what you need.
 
@@ -14,7 +14,7 @@ Welcome! You have access to comprehensive documentation for your e-commerce plat
    - Quick start instructions
    - Next steps
 
-2. **[VISUAL_GUIDE.md](./VISUAL_GUIDE.md)** 
+2. **[VISUAL_GUIDE.md](./VISUAL_GUIDE.md)**
    - Step-by-step visual walkthrough
    - What you see on each page
    - How to test features
@@ -31,19 +31,21 @@ Welcome! You have access to comprehensive documentation for your e-commerce plat
 ## 📖 All Documentation Files
 
 ### Core Documentation
-| File | Purpose | Time |
-|------|---------|------|
-| [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md) | Executive summary & quick start | 5 min |
-| [VISUAL_GUIDE.md](./VISUAL_GUIDE.md) | Visual walkthroughs & diagrams | 15 min |
-| [README_ECOMMERCE.md](./README_ECOMMERCE.md) | Complete technical documentation | 30 min |
-| [FEATURES_OVERVIEW.md](./FEATURES_OVERVIEW.md) | All features explained visually | 20 min |
-| [QUICK_START.md](./QUICK_START.md) | Quick reference guide | 5 min |
+
+| File                                           | Purpose                          | Time   |
+| ---------------------------------------------- | -------------------------------- | ------ |
+| [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md)     | Executive summary & quick start  | 5 min  |
+| [VISUAL_GUIDE.md](./VISUAL_GUIDE.md)           | Visual walkthroughs & diagrams   | 15 min |
+| [README_ECOMMERCE.md](./README_ECOMMERCE.md)   | Complete technical documentation | 30 min |
+| [FEATURES_OVERVIEW.md](./FEATURES_OVERVIEW.md) | All features explained visually  | 20 min |
+| [QUICK_START.md](./QUICK_START.md)             | Quick reference guide            | 5 min  |
 
 ### Setup & Testing
-| File | Purpose | Time |
-|------|---------|------|
-| [SETUP_VERIFICATION.md](./SETUP_VERIFICATION.md) | Installation & verification checklist | 10 min |
-| [TESTING_CHECKLIST.md](./TESTING_CHECKLIST.md) | Complete testing guide | 30 min |
+
+| File                                                 | Purpose                               | Time   |
+| ---------------------------------------------------- | ------------------------------------- | ------ |
+| [SETUP_VERIFICATION.md](./SETUP_VERIFICATION.md)     | Installation & verification checklist | 10 min |
+| [TESTING_CHECKLIST.md](./TESTING_CHECKLIST.md)       | Complete testing guide                | 30 min |
 | [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md) | Implementation details & architecture | 20 min |
 
 ---
@@ -97,21 +99,21 @@ Follow this path for fastest onboarding:
 2. Read: PROJECT_SUMMARY.md (5 min)
    - Understand what you have
    - Learn test credentials
-   
+
 3. Run: npm install && npm run dev (5 min)
    - Install dependencies
    - Start development server
-   
+
 4. Explore: http://localhost:3000 (10 min)
    - Browse homepage
    - Try theme toggle
    - Try languages
-   
+
 5. Test: Login with test credentials (10 min)
    - user@example.com / password123
    - owner@example.com / password123
    - admin@example.com / password123
-   
+
 6. Read: README_ECOMMERCE.md (30 min)
    - Full feature documentation
    - Technology stack
@@ -125,24 +127,29 @@ Total Time: ~1 hour to fully understand
 ## 📚 Documentation by Topic
 
 ### Getting Started
+
 - [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md) - Overview
 - [QUICK_START.md](./QUICK_START.md) - Quick reference
 - [SETUP_VERIFICATION.md](./SETUP_VERIFICATION.md) - Installation
 
 ### Understanding Features
+
 - [FEATURES_OVERVIEW.md](./FEATURES_OVERVIEW.md) - All features
 - [README_ECOMMERCE.md](./README_ECOMMERCE.md) - Complete docs
 - [VISUAL_GUIDE.md](./VISUAL_GUIDE.md) - Visual walkthrough
 
 ### Implementation & Architecture
+
 - [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md) - Technical details
 - [README_ECOMMERCE.md](./README_ECOMMERCE.md) - Project structure
 
 ### Testing & Verification
+
 - [TESTING_CHECKLIST.md](./TESTING_CHECKLIST.md) - Testing guide
 - [SETUP_VERIFICATION.md](./SETUP_VERIFICATION.md) - Verification
 
 ### Customization
+
 - [README_ECOMMERCE.md](./README_ECOMMERCE.md) - Customization guide
 - Component files in `/components`
 - Page files in `/app`
@@ -175,6 +182,7 @@ SUPER ADMIN
 ## 📋 Key Sections by Document
 
 ### PROJECT_SUMMARY.md
+
 - ✅ What you're getting
 - ✅ Quick start (< 5 min)
 - ✅ Test accounts
@@ -183,6 +191,7 @@ SUPER ADMIN
 - ✅ Common questions
 
 ### README_ECOMMERCE.md
+
 - ✅ Complete features list
 - ✅ Technology stack
 - ✅ Project structure
@@ -192,6 +201,7 @@ SUPER ADMIN
 - ✅ Deployment options
 
 ### FEATURES_OVERVIEW.md
+
 - ✅ Platform architecture
 - ✅ All features detailed
 - ✅ Data flow diagrams
@@ -199,6 +209,7 @@ SUPER ADMIN
 - ✅ Learning resources
 
 ### VISUAL_GUIDE.md
+
 - ✅ Step-by-step walkthrough
 - ✅ What each page looks like
 - ✅ User journeys
@@ -207,6 +218,7 @@ SUPER ADMIN
 - ✅ Quick commands
 
 ### SETUP_VERIFICATION.md
+
 - ✅ Installation checklist
 - ✅ Feature verification
 - ✅ Testing checklist
@@ -214,6 +226,7 @@ SUPER ADMIN
 - ✅ Performance checklist
 
 ### TESTING_CHECKLIST.md
+
 - ✅ Pre-launch verification
 - ✅ Feature-by-feature testing
 - ✅ Quality assurance
@@ -221,6 +234,7 @@ SUPER ADMIN
 - ✅ Final sign-off
 
 ### IMPLEMENTATION_GUIDE.md
+
 - ✅ Tech stack details
 - ✅ Architecture explanation
 - ✅ Mock data locations
@@ -232,22 +246,26 @@ SUPER ADMIN
 ## 🎓 Learning Paths
 
 ### Path 1: Quick Overview (15 minutes)
+
 1. This file
 2. [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md)
 3. [QUICK_START.md](./QUICK_START.md)
 
 ### Path 2: Understanding Everything (1 hour)
+
 1. [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md)
 2. [VISUAL_GUIDE.md](./VISUAL_GUIDE.md)
 3. [README_ECOMMERCE.md](./README_ECOMMERCE.md)
 
 ### Path 3: Technical Deep Dive (2 hours)
+
 1. [README_ECOMMERCE.md](./README_ECOMMERCE.md)
 2. [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md)
 3. [FEATURES_OVERVIEW.md](./FEATURES_OVERVIEW.md)
 4. Code files
 
 ### Path 4: Complete Testing (2 hours)
+
 1. [SETUP_VERIFICATION.md](./SETUP_VERIFICATION.md)
 2. [TESTING_CHECKLIST.md](./TESTING_CHECKLIST.md)
 3. Test each feature
@@ -258,6 +276,7 @@ SUPER ADMIN
 ## 📱 Pages & Routes Reference
 
 ### Public Routes
+
 - `/` - Homepage
 - `/login` - Login page
 - `/products` - Product catalog
@@ -266,6 +285,7 @@ SUPER ADMIN
 - `/checkout` - Checkout
 
 ### Protected Routes (End-User)
+
 - `/dashboard` - User dashboard
 - `/orders` - Order history
 - `/wishlist` - Wishlist
@@ -274,9 +294,11 @@ SUPER ADMIN
 - `/profile` - Profile
 
 ### Protected Routes (Owner)
+
 - `/owner` - Owner dashboard
 
 ### Protected Routes (Admin)
+
 - `/admin` - Admin dashboard
 
 ---
@@ -284,6 +306,7 @@ SUPER ADMIN
 ## 🔧 Configuration Files
 
 ### Important Files to Know About
+
 - `lib/store.ts` - Redux configuration
 - `lib/slices/` - Redux state slices
 - `i18n/config.ts` - i18n configuration
@@ -303,24 +326,27 @@ SUPER ADMIN
 ✅ **Easy to Extend** - Add features easily  
 ✅ **Modern Stack** - Latest technologies  
 ✅ **Type Safe** - TypeScript throughout  
-✅ **Responsive** - Mobile to desktop  
+✅ **Responsive** - Mobile to desktop
 
 ---
 
 ## 🎯 Your Next Actions
 
 **In the next 5 minutes:**
+
 1. ✅ Read [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md)
 2. ✅ Note the test credentials
 3. ✅ Run `npm install && npm run dev`
 
 **In the next 30 minutes:**
+
 1. ✅ Explore http://localhost:3000
 2. ✅ Test theme & languages
 3. ✅ Login with test account
 4. ✅ Try the shopping flow
 
 **After 1 hour:**
+
 1. ✅ Read [README_ECOMMERCE.md](./README_ECOMMERCE.md)
 2. ✅ Review [FEATURES_OVERVIEW.md](./FEATURES_OVERVIEW.md)
 3. ✅ Start customizing!
@@ -359,6 +385,7 @@ SUPER ADMIN
 Your complete e-commerce platform is ready to use!
 
 **Quick Start:**
+
 ```bash
 npm install
 npm run dev

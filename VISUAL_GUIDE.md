@@ -1,8 +1,9 @@
-# Nexus E-Commerce - Visual Guide & Getting Started
+# TENZA E-Commerce - Visual Guide & Getting Started
 
 ## 🎬 Video Walkthrough (Text Version)
 
 ### Step 1: Start the Application
+
 ```
 1. Open Terminal/CMD in project folder
 2. Run: npm install
@@ -12,9 +13,10 @@
 ```
 
 ### Step 2: Explore Homepage
+
 ```
 ┌─────────────────────────────────────────┐
-│  NEXUS    🔍  🛒(3)  🌙  EN  👤       │ ← Header
+│  TENZA    🔍  🛒(3)  🌙  EN  👤       │ ← Header
 ├─────────────────────────────────────────┤
 │                                         │
 │    PREMIUM PRODUCTS                     │ ← Hero Section
@@ -38,6 +40,7 @@
 ```
 
 ### Step 3: Try Theme Toggle
+
 ```
 Current: Light mode ☀️
 
@@ -51,6 +54,7 @@ Click Sun Icon → Back to light mode ☀️
 ```
 
 ### Step 4: Try Language Selector
+
 ```
 Click "EN" button → Language dropdown
 
@@ -69,6 +73,7 @@ etc.
 ### Step 5: Login & Test Roles
 
 #### Option 1: End-User
+
 ```
 1. Click "Sign In" in header
 2. Enter:
@@ -86,6 +91,7 @@ etc.
 ```
 
 #### Option 2: Store Owner
+
 ```
 1. Go to /login
 2. Enter:
@@ -102,6 +108,7 @@ etc.
 ```
 
 #### Option 3: Super Admin
+
 ```
 1. Go to /login
 2. Enter:
@@ -169,9 +176,9 @@ CART PAGE (/cart)
 Click "CHECKOUT"
    ↓
 CHECKOUT PAGE (/checkout)
-   
+
    Progress: [1. SHIPPING] [2. PAYMENT] [3. CONFIRM]
-   
+
    STEP 1: Shipping
    ├─ First Name: [_________]
    ├─ Last Name: [_________]
@@ -182,17 +189,17 @@ CHECKOUT PAGE (/checkout)
    ├─ State: [_________]
    ├─ ZIP: [_________]
    └─ [CONTINUE TO PAYMENT]
-   
+
    ↓
-   
+
    STEP 2: Payment
    ├─ Card Number: [_________]
    ├─ Expiry: [_________]
    ├─ CVV: [_________]
    └─ [BACK] [PLACE ORDER]
-   
+
    ↓
-   
+
    STEP 3: Confirmation
    ┌──────────────────────────┐
    │ ✓ ORDER CONFIRMED!       │
@@ -294,7 +301,7 @@ WISHLIST PAGE (/wishlist):
 ```
 Mobile (< 768px):
 ┌──────────────────┐
-│ ☰ NEXUS    🛒(3) │ ← Hamburger menu
+│ ☰ TENZA    🛒(3) │ ← Hamburger menu
 ├──────────────────┤
 │                  │
 │ [Hero Section]   │
@@ -444,6 +451,7 @@ http://localhost:3000/login
 ## ✨ Key Interactions
 
 ### Theme Toggle
+
 ```
 Current Theme: Light ☀️
 ↓
@@ -459,6 +467,7 @@ Refresh → Dark theme persists
 ```
 
 ### Language Change
+
 ```
 Current: English
 ↓
@@ -474,6 +483,7 @@ Saved to Redux state
 ```
 
 ### Login Flow
+
 ```
 Click Header Avatar (or Sign In)
 ↓

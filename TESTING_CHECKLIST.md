@@ -1,8 +1,9 @@
-# Complete Testing Checklist - Nexus E-Commerce
+# Complete Testing Checklist - TENZA E-Commerce
 
 ## 🚀 Pre-Launch Verification
 
 ### System Requirements
+
 - [ ] Node.js 18+ installed
 - [ ] npm or yarn package manager
 - [ ] Modern browser (Chrome, Firefox, Safari, Edge)
@@ -10,10 +11,12 @@
 - [ ] Internet connection
 
 ### Installation
+
 ```bash
 npm install
 npm run dev
 ```
+
 - [ ] Installation completes without errors
 - [ ] Dev server starts successfully
 - [ ] Preview available at http://localhost:3000
@@ -25,6 +28,7 @@ npm run dev
 ### 1. Theme System (Dark/Light Mode)
 
 #### Basic Functionality
+
 - [ ] Default theme matches system preference
 - [ ] Click moon icon → switches to light mode
 - [ ] Click sun icon → switches to dark mode
@@ -33,17 +37,20 @@ npm run dev
 - [ ] All buttons functional in both modes
 
 #### Persistence
+
 - [ ] Refresh page → theme remains same
 - [ ] Close browser → theme persists on return
 - [ ] Switch theme → persisted correctly
 
 #### Responsiveness
+
 - [ ] Theme works on mobile
 - [ ] Theme works on tablet
 - [ ] Theme works on desktop
 - [ ] All breakpoints styled correctly
 
 #### Components
+
 - [ ] Header styled correctly in both themes
 - [ ] Footer styled correctly
 - [ ] Cards have proper contrast
@@ -56,42 +63,49 @@ npm run dev
 ### 2. Internationalization (i18n)
 
 #### Language Selection
+
 - [ ] Click language selector dropdown
 - [ ] All 4 languages appear (EN, ES, FR, DE)
 - [ ] Can select each language
 - [ ] Page content updates immediately
 
 #### English (EN)
+
 - [ ] All text displays in English
 - [ ] Product titles correct
 - [ ] Button labels correct
 - [ ] Form placeholders correct
 
 #### Spanish (ES)
+
 - [ ] All text translates to Spanish
 - [ ] Accents display correctly
 - [ ] Special characters render
 - [ ] Content makes sense
 
 #### French (FR)
+
 - [ ] All text translates to French
 - [ ] Accents & special chars work
 - [ ] Contractions display
 - [ ] Content accurate
 
 #### German (DE)
+
 - [ ] All text translates to German
 - [ ] Umlauts (ä, ö, ü) display
 - [ ] Compound words correct
 - [ ] Content accurate
 
 #### Persistence
+
 - [ ] Refresh page → language remains
 - [ ] Navigate to different page → language persists
 - [ ] Return to home → language persists
 - [ ] Close browser → language restored
 
 #### Component Coverage
+
 - [ ] Header content translated
 - [ ] Hero section translated
 - [ ] Product names translated
@@ -105,6 +119,7 @@ npm run dev
 ### 3. Authentication & Roles
 
 #### Login Page (`/login`)
+
 - [ ] Page loads correctly
 - [ ] Email input works
 - [ ] Password input works
@@ -112,10 +127,12 @@ npm run dev
 - [ ] Error messages show for empty fields
 
 #### End-User Login
+
 ```
 Email: user@example.com
 Password: password123
 ```
+
 - [ ] Login succeeds
 - [ ] Redirects to `/dashboard`
 - [ ] User menu shows "John Buyer"
@@ -123,10 +140,12 @@ Password: password123
 - [ ] Company field not visible
 
 #### Owner Login
+
 ```
 Email: owner@example.com
 Password: password123
 ```
+
 - [ ] Login succeeds
 - [ ] Redirects to `/owner`
 - [ ] User menu shows "Jane Owner"
@@ -134,10 +153,12 @@ Password: password123
 - [ ] Company field shows "Premium Co."
 
 #### Super-Admin Login
+
 ```
 Email: admin@example.com
 Password: password123
 ```
+
 - [ ] Login succeeds
 - [ ] Redirects to `/admin`
 - [ ] User menu shows "Admin User"
@@ -145,6 +166,7 @@ Password: password123
 - [ ] Has admin access
 
 #### User Menu
+
 - [ ] Dropdown appears on click
 - [ ] Shows user name
 - [ ] Shows user email
@@ -155,6 +177,7 @@ Password: password123
 - [ ] Logout clears auth
 
 #### Logout
+
 - [ ] Logout button appears
 - [ ] Click logout → redirect to home
 - [ ] Auth state cleared
@@ -165,12 +188,14 @@ Password: password123
 ### 4. Protected Routes & Role Guards
 
 #### Unauthenticated Access
+
 - [ ] Visit `/dashboard` without login → redirected to `/login`
 - [ ] Visit `/orders` without login → redirected to `/login`
 - [ ] Visit `/admin` without login → redirected to `/login`
 - [ ] Visit `/owner` without login → redirected to `/login`
 
 #### Role-Based Access
+
 - [ ] End-user visits `/admin` → "Unauthorized" message
 - [ ] End-user visits `/owner` → "Unauthorized" message
 - [ ] Owner visits `/admin` → "Unauthorized" message
@@ -178,6 +203,7 @@ Password: password123
 - [ ] Owner can access owner routes
 
 #### Access Granted
+
 - [ ] End-user access `/dashboard` → success
 - [ ] End-user access `/orders` → success
 - [ ] Owner access `/owner` → success
@@ -188,6 +214,7 @@ Password: password123
 ### 5. Shopping Features
 
 #### Product Catalog (`/products`)
+
 - [ ] Page loads with 8 products
 - [ ] Product images display
 - [ ] Product names show
@@ -196,6 +223,7 @@ Password: password123
 - [ ] Review counts show
 
 #### Product Filtering
+
 - [ ] Price range slider works
 - [ ] Adjust slider → products filter
 - [ ] Low prices filtered out
@@ -203,6 +231,7 @@ Password: password123
 - [ ] All products within range show
 
 #### Product Sorting
+
 - [ ] Sort dropdown works
 - [ ] "Featured" option works
 - [ ] "Price: Low to High" sorts correctly
@@ -210,6 +239,7 @@ Password: password123
 - [ ] "Highest Rated" sorts by rating
 
 #### Product Details (`/products/[id]`)
+
 - [ ] Product page loads
 - [ ] Main image displays
 - [ ] Thumbnail images show
@@ -224,6 +254,7 @@ Password: password123
 - [ ] Breadcrumb navigation visible
 
 #### Add to Cart
+
 - [ ] From product page, click "Add to Cart"
 - [ ] Quantity selector works (+/-)
 - [ ] Cart count updates in header
@@ -232,6 +263,7 @@ Password: password123
 - [ ] Cart updates immediately
 
 #### Shopping Cart (`/cart`)
+
 - [ ] All items display correctly
 - [ ] Item images show
 - [ ] Item names correct
@@ -246,12 +278,14 @@ Password: password123
 - [ ] Total correct
 
 #### Empty Cart
+
 - [ ] Remove all items
 - [ ] Empty state message shows
 - [ ] "Continue Shopping" link works
 - [ ] Cart badge shows 0
 
 #### Wishlist
+
 - [ ] Heart icon visible on products
 - [ ] Click heart → fills with accent color
 - [ ] Visit `/wishlist`
@@ -264,12 +298,14 @@ Password: password123
 ### 6. Checkout Process (`/checkout`)
 
 #### Checkout Flow
+
 - [ ] Cart button shows "3" items
 - [ ] Click "Proceed to Checkout"
 - [ ] Redirects to checkout page
 - [ ] Progress indicator shows Step 1
 
 #### Step 1: Shipping
+
 - [ ] First Name field works
 - [ ] Last Name field works
 - [ ] Email field works
@@ -282,6 +318,7 @@ Password: password123
 - [ ] Progress updates to Step 2
 
 #### Step 2: Payment
+
 - [ ] Card Number field works
 - [ ] Expiry field works
 - [ ] CVV field works
@@ -292,6 +329,7 @@ Password: password123
 - [ ] Progress updates to Step 3
 
 #### Step 3: Confirmation
+
 - [ ] Confirmation page displays
 - [ ] Success checkmark shows
 - [ ] Order number generated
@@ -306,6 +344,7 @@ Password: password123
 ### 7. User Dashboards
 
 #### End-User Dashboard (`/dashboard`)
+
 - [ ] Welcome message shows
 - [ ] Stats cards visible:
   - [ ] Items in Cart
@@ -322,6 +361,7 @@ Password: password123
 - [ ] "View All Orders" link works
 
 #### My Orders (`/orders`)
+
 - [ ] Order list displays
 - [ ] Order numbers visible
 - [ ] Order dates show
@@ -333,6 +373,7 @@ Password: password123
   - [ ] Processing (yellow)
 
 #### Wishlist (`/wishlist`)
+
 - [ ] Wishlisted items display
 - [ ] Item details show
 - [ ] Remove button works
@@ -340,6 +381,7 @@ Password: password123
 - [ ] Empty state if no items
 
 #### Shipping Tracker (`/shipping`)
+
 - [ ] Shipment list displays
 - [ ] Shipment status shows
 - [ ] Tracking number visible
@@ -348,6 +390,7 @@ Password: password123
 - [ ] Dates formatted correctly
 
 #### Settings (`/settings`)
+
 - [ ] Account settings page loads
 - [ ] Personal info section shows
 - [ ] Email displayed (read-only)
@@ -362,6 +405,7 @@ Password: password123
 - [ ] Cancel button works
 
 #### Profile (`/profile`)
+
 - [ ] Profile page loads
 - [ ] User avatar displays
 - [ ] User name shows
@@ -374,6 +418,7 @@ Password: password123
 - [ ] Save changes button works
 
 #### Owner Dashboard (`/owner`)
+
 - [ ] Owner page loads
 - [ ] Company info displays
 - [ ] Welcome message personalized
@@ -383,6 +428,7 @@ Password: password123
 - [ ] Revenue shows
 
 #### Admin Dashboard (`/admin`)
+
 - [ ] Admin page loads
 - [ ] System stats display
 - [ ] Total users shows
@@ -396,12 +442,14 @@ Password: password123
 ### 8. Header Navigation
 
 #### Logo & Branding
+
 - [ ] Logo displays correctly
-- [ ] "Nexus" text visible
+- [ ] "TENZA" text visible
 - [ ] Logo links to home
 - [ ] Logo works on all pages
 
 #### Desktop Navigation
+
 - [ ] Home link works
 - [ ] Shop link goes to `/products`
 - [ ] Cart link goes to `/cart`
@@ -410,6 +458,7 @@ Password: password123
 - [ ] All links functional
 
 #### Mobile Navigation
+
 - [ ] Hamburger menu visible on mobile
 - [ ] Click menu → opens navigation
 - [ ] Click menu again → closes
@@ -417,21 +466,25 @@ Password: password123
 - [ ] X button closes menu
 
 #### Search
+
 - [ ] Search icon visible
 - [ ] Click search → ready for implementation
 
 #### Cart Badge
+
 - [ ] Shows item count
 - [ ] Updates in real-time
 - [ ] Shows correct number
 - [ ] Links to cart page
 
 #### Theme Toggle
+
 - [ ] Moon/Sun icon visible
 - [ ] Toggles theme smoothly
 - [ ] Works on all pages
 
 #### Language Selector
+
 - [ ] Language dropdown visible
 - [ ] Shows current language
 - [ ] Dropdown opens on click
@@ -440,6 +493,7 @@ Password: password123
 - [ ] Dropdown closes after selection
 
 #### User Menu
+
 - [ ] User avatar visible (when logged in)
 - [ ] Shows user initials
 - [ ] Dropdown opens on click
@@ -457,6 +511,7 @@ Password: password123
 ### 9. Footer
 
 #### Footer Content
+
 - [ ] Logo displays
 - [ ] Company description shows
 - [ ] Social media icons visible:
@@ -469,6 +524,7 @@ Password: password123
 - [ ] Legal links section
 
 #### Footer Links
+
 - [ ] About link works
 - [ ] Careers link works
 - [ ] Contact link works
@@ -478,6 +534,7 @@ Password: password123
 - [ ] Support link works
 
 #### Footer Responsiveness
+
 - [ ] Footer displays correctly on mobile
 - [ ] Footer displays correctly on tablet
 - [ ] Footer displays correctly on desktop
@@ -488,6 +545,7 @@ Password: password123
 ### 10. Responsive Design
 
 #### Mobile (< 768px)
+
 - [ ] Header stacks properly
 - [ ] Navigation collapses to hamburger
 - [ ] Images scale correctly
@@ -498,6 +556,7 @@ Password: password123
 - [ ] No horizontal scroll
 
 #### Tablet (768px - 1024px)
+
 - [ ] Header displays correctly
 - [ ] Navigation visible
 - [ ] 2-column layouts work
@@ -507,6 +566,7 @@ Password: password123
 - [ ] All content accessible
 
 #### Desktop (> 1024px)
+
 - [ ] Full layout displays
 - [ ] Multi-column layouts work
 - [ ] Sidebar layouts functional
@@ -519,6 +579,7 @@ Password: password123
 ## 🔍 Quality Assurance
 
 ### Performance
+
 - [ ] Page load < 2 seconds
 - [ ] Theme toggle smooth (60fps)
 - [ ] No layout shifts
@@ -526,6 +587,7 @@ Password: password123
 - [ ] No janky scrolling
 
 ### Accessibility
+
 - [ ] Keyboard navigation works
 - [ ] Tab order logical
 - [ ] Links descriptive
@@ -534,6 +596,7 @@ Password: password123
 - [ ] Colors have contrast
 
 ### Browser Compatibility
+
 - [ ] Chrome ✓
 - [ ] Firefox ✓
 - [ ] Safari ✓
@@ -541,6 +604,7 @@ Password: password123
 - [ ] Mobile browsers ✓
 
 ### Console Checks
+
 - [ ] No JavaScript errors
 - [ ] No console warnings
 - [ ] No 404 errors
@@ -552,6 +616,7 @@ Password: password123
 ## ✅ Final Sign-Off
 
 ### All Tests Passed
+
 - [ ] Theme system working
 - [ ] i18n fully functional
 - [ ] Authentication complete
@@ -564,6 +629,7 @@ Password: password123
 - [ ] Performance acceptable
 
 ### Ready for Deployment
+
 - [ ] All features tested
 - [ ] No critical bugs
 - [ ] Performance optimized
@@ -572,6 +638,7 @@ Password: password123
 - [ ] Documentation complete
 
 ### Next Steps
+
 - [ ] Connect to real backend
 - [ ] Setup payment gateway
 - [ ] Configure email service
@@ -581,7 +648,7 @@ Password: password123
 
 ---
 
-**Testing Date**: _______________  
-**Tested By**: _______________  
+**Testing Date**: ******\_\_\_******  
+**Tested By**: ******\_\_\_******  
 **Status**: ✅ Ready for Production  
 **Last Updated**: February 2025

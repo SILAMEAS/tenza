@@ -1,32 +1,32 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import Link from 'next/link'
-import { ShoppingCart, Search, Menu, X, Moon, Sun } from 'lucide-react'
-import { useTheme } from 'next-themes'
-import { useTranslation } from 'react-i18next'
-import { useAppDispatch, useAppSelector } from '@/lib/store'
-import { setLanguage } from '@/lib/slices/uiSlice'
-import { Button } from '@/components/ui/button'
-import { UserMenu } from '@/components/user-menu'
+import { useState } from "react";
+import Link from "next/link";
+import { ShoppingCart, Search, Menu, X, Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+import { useTranslation } from "react-i18next";
+import { useAppDispatch, useAppSelector } from "@/lib/store";
+import { setLanguage } from "@/lib/slices/uiSlice";
+import { Button } from "@/components/ui/button";
+import { UserMenu } from "@/components/user-menu";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
+} from "@/components/ui/dropdown-menu";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
-  const { theme, setTheme } = useTheme()
-  const { i18n } = useTranslation()
-  const dispatch = useAppDispatch()
-  const language = useAppSelector((state) => state.ui.language)
+  const [isOpen, setIsOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
+  const { i18n } = useTranslation();
+  const dispatch = useAppDispatch();
+  const language = useAppSelector((state) => state.ui.language);
 
-  const handleLanguageChange = (lang: 'en' | 'es' | 'fr' | 'de') => {
-    i18n.changeLanguage(lang)
-    dispatch(setLanguage(lang))
-  }
+  const handleLanguageChange = (lang: "en" | "es" | "fr" | "de") => {
+    i18n.changeLanguage(lang);
+    dispatch(setLanguage(lang));
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -37,7 +37,7 @@ export default function Header() {
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">N</span>
             </div>
-            <span className="font-bold text-xl hidden sm:inline">Nexus</span>
+            <span className="font-bold text-xl hidden sm:inline">TENZA</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -73,7 +73,10 @@ export default function Header() {
             <button className="p-2 hover:bg-secondary rounded-lg transition-colors">
               <Search size={20} className="text-foreground" />
             </button>
-            <Link href="/cart" className="p-2 hover:bg-secondary rounded-lg transition-colors relative">
+            <Link
+              href="/cart"
+              className="p-2 hover:bg-secondary rounded-lg transition-colors relative"
+            >
               <ShoppingCart size={20} className="text-foreground" />
               <span className="absolute top-1 right-1 w-4 h-4 bg-accent text-white text-xs rounded-full flex items-center justify-center">
                 {useAppSelector((state) => state.cart.items.length) || 0}
@@ -82,10 +85,10 @@ export default function Header() {
 
             {/* Theme Toggle */}
             <button
-              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="p-2 hover:bg-secondary rounded-lg transition-colors"
             >
-              {theme === 'dark' ? (
+              {theme === "dark" ? (
                 <Sun size={20} className="text-foreground" />
               ) : (
                 <Moon size={20} className="text-foreground" />
@@ -100,16 +103,16 @@ export default function Header() {
                 </button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => handleLanguageChange('en')}>
+                <DropdownMenuItem onClick={() => handleLanguageChange("en")}>
                   English
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => handleLanguageChange('es')}>
+                <DropdownMenuItem onClick={() => handleLanguageChange("es")}>
                   Español
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => handleLanguageChange('fr')}>
+                <DropdownMenuItem onClick={() => handleLanguageChange("fr")}>
                   Français
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => handleLanguageChange('de')}>
+                <DropdownMenuItem onClick={() => handleLanguageChange("de")}>
                   Deutsch
                 </DropdownMenuItem>
               </DropdownMenuContent>
@@ -163,7 +166,5 @@ export default function Header() {
         )}
       </div>
     </header>
-  )
+  );
 }
-
-
